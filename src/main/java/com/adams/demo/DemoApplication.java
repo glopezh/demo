@@ -1,6 +1,6 @@
 package com.adams.demo;
 
-import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -13,7 +13,7 @@ public class DemoApplication {
         System.out.println("Hola "+ pepito.getNombre());
         System.out.println("Edad: "+ pepito.getEdad());
 
-        SpringApplication.run(DemoApplication.class, args);
+        //SpringApplication.run(DemoApplication.class, args);
 
     }
 
