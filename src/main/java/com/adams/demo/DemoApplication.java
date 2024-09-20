@@ -15,8 +15,10 @@ public class DemoApplication {
         personas[3] = new Persona ("Silvia", 52);
 
         for (int i = 0; i < personas.length; i++) {
-            System.out.println("Hola "+ personas[i].getNombre());
-            System.out.println("Edad: "+ personas[i].getEdad());
+            if(personas[i].getNombre() != "Rosa"){
+                System.out.println("Hola "+ personas[i].getNombre());
+                System.out.println("Edad: "+ personas[i].getEdad());
+            }
         }
 
 
