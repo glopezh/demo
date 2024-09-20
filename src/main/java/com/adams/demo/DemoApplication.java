@@ -11,6 +11,7 @@ public class DemoApplication {
         Persona pepito = new Persona ("Pepito", 40);
 
         System.out.println("Hola "+ pepito.getNombre());
+        System.out.println("Edad: "+ pepito.getEdad());
 
         SpringApplication.run(DemoApplication.class, args);
 
